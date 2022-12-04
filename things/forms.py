@@ -1,6 +1,7 @@
 """Forms of the project."""
 from django import forms
 from .models import Thing
+from django.core.validators import RegexValidator
 
 # Create your forms here.
 class ThingForm(forms.ModelForm):
